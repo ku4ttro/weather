@@ -5,7 +5,6 @@ export class WeatherList extends Component {
   renderWeather(cityData) {
     return (
       <tr>
-        <td>Cenas</td>
         <td>{cityData.city.name}</td>
       </tr>
     );
